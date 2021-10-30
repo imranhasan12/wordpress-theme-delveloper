@@ -1,125 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
 
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-    <title><?php bloginfo('name')?></title>
-     
+    <title>Training Studio - Free CSS Template</title>
+<!--
+
+TemplateMo 548 Training Studio
+
+https://templatemo.com/tm-548-training-studio
+
+-->
+    <!-- Additional CSS Files -->
     
-     
-	<?php wp_head();?>
-</head>
-
-<body?php body_class();?> >
-
-
-
-
-    <!-- Preloader -->
+     <?php wp_head();?>
+    </head>
+    
+    <body>
+    
 	
 	<?php
-       if($redux_demo['fields_35']){ ?>
-		   
-		       <div class="preloader">
-        <div class="spinner">
-            <div class="cube1"></div>
-            <div class="cube2"></div>
+	
+	if($redux_demo['fields_35']){ ?>
+	
+	 <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
     </div>
-    <!-- // Preloader -->
-		   
-		   
-    <?php }
+	
+
+	
+<?php	}
 	
 	?>
-
-
-
-					
-    <!--Header Area-->
-    <header class="header-area white-bg fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid pl-0 pr-0">
-                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto main-menu">
-					
-					
-						<?php
-					$args=array(
-					
-					'theme_location'=>'header',
-					
-					);
-					?>
-					   <?php
-                      wp_nav_menu( $args ); 
-                      
-                            ?>
-					
-					
-					
-					
-					
-					
-						 
-						 
-						 
-                        <li class="nav-item"><a class="nav-link" href="Home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="About">About</a></li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="Service">Service</a>
-                                <a class="dropdown-item" href="services-details.html">Service Details</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Blog
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                                <a class="dropdown-item" href="Blog 1">Blog 1</a>
-                                <a class="dropdown-item" href="blog 2">Blog 2</a>
-                                <a class="dropdown-item" href="Blog Details">Blog Details</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="Contact">Contact</a></li>
-                    </ul>
-
-                    <div class="header-btn justify-content-end">
-                        <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
-                    </div>
-
+	
+	
+	
+	
+	
+    <!-- ***** Preloader Start ***** -->
+   
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+	
+	
+	  <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Training<em> Studio</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">About</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
+                            <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-                     
-					
-					
-					
-					
-                       
+	
+	
+	
+	
+	
+  
+    <!-- ***** Header Area End ***** -->
